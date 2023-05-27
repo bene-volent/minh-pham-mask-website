@@ -5,6 +5,7 @@
 
 :root {
     --fs-hero: clamp(2rem, 10vw, 6rem);
+    --fs-others:1rem;
 }
 
 .only-mobile {
@@ -116,12 +117,7 @@ body {
 .gap-3 {
     gap: 3rem;
 }
-.credits {
-    position: fixed;
-    text-align: center;
-    width: 100%;
-    bottom: 5vh;
-}
+
 
 @media screen and (max-width: 900px) {
     :root {
