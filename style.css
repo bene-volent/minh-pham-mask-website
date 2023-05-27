@@ -5,7 +5,7 @@
 
 :root {
     --fs-hero: clamp(2rem, 10vw, 6rem);
-    --fs-others:1rem;
+    --fs-others: 1rem;
 }
 
 .only-mobile {
@@ -61,7 +61,7 @@
 
 body {
     font-family: "Raleway", sans-serif;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 .bg-white {
@@ -118,7 +118,6 @@ body {
 .gap-3 {
     gap: 3rem;
 }
-
 
 @media screen and (max-width: 900px) {
     :root {
