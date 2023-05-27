@@ -118,7 +118,7 @@ body {
 
 @media screen and (max-width: 900px) {
     :root {
-        --fs-hero: clamp(2rem,5vw,3rem);
+        --fs-hero: clamp(2.5rem,5vw,4rem);
     }
 
     .only-mobile{
