@@ -20,7 +20,7 @@ function subLerp(current, destination, rate) {
 }
 
 function handleMaskEvents() {
-    if (window.matchMedia("(min-width:600px").matches) {
+    if (window.matchMedia("(min-width:700px").matches) {
         if (document.querySelector(".masked-cursor:hover")) {
             maskSize += subLerp(defaultMaskSize, maxMaskSize, 0.1);
         } else {
