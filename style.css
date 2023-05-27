@@ -4,8 +4,9 @@
 }
 
 :root {
-    --fs-hero: clamp(2rem,10vw,6rem);
+    --fs-hero: clamp(2rem, 10vw, 6rem);
 }
+
 .only-mobile {
     display: none;
 }
@@ -13,7 +14,7 @@
 .prevent-select {
     -webkit-user-select: none; /* Safari */
     user-select: none; /* Standard syntax */
-  }
+}
 
 .section-wrapper {
     position: relative;
@@ -115,13 +116,19 @@ body {
 .gap-3 {
     gap: 3rem;
 }
+.credits {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    bottom: 5vh;
+}
 
 @media screen and (max-width: 900px) {
     :root {
-        --fs-hero: clamp(2.5rem,5vw,4rem);
+        --fs-hero: clamp(2.5rem, 5vw, 4rem);
     }
 
-    .only-mobile{
+    .only-mobile {
         display: inline;
     }
     .mask-button-container .mask-button {
