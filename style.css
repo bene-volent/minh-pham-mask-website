@@ -3,10 +3,10 @@
     padding: 0;
 }
 
-:root{
-    --fs-hero:6rem;
+:root {
+    --fs-hero: 6rem;
 }
-.only-mobile{
+.only-mobile {
     display: none;
 }
 
@@ -15,7 +15,6 @@
     /* z-index: -1 */
 }
 
-
 #masked-page {
     position: absolute;
     top: 0;
@@ -23,7 +22,7 @@
     right: 0;
 }
 
-#masked-page{
+#masked-page {
     z-index: 10;
 }
 
@@ -102,46 +101,41 @@ body {
     cursor: default;
 }
 
-.flex{
+.flex {
     display: flex;
 }
-.flex-d-col{
+.flex-d-col {
     flex-direction: column;
 }
-.gap-3{
-    gap:3rem;
+.gap-3 {
+    gap: 3rem;
 }
 
+@media screen and (max-width: 600px) {
+    :root {
+        --fs-hero: 3rem;
+    }
 
-@media screen and (max-width:600px) {
-    :root{
-        --fs-hero:3rem;
-    }
-    .mask-button-container{
+    .mask-button-container .mask-button {
         position: fixed;
-        bottom:10vh;
-    
-        display:grid;
-        width: 100vw;
-        place-content: center;
+        top: 5vh;
+        left: 5vh;
+
+        /* width: 100vw; */
+
         z-index: 99;
-    }
-    .mask-button-container .mask-button{
         padding: 1rem;
         background-color: hsl(0, 0%, 35%);
         /* background-color: hsla(0, 0%, 35%, 0); */
         border: none;
         aspect-ratio: 1;
-        border-radius:10px;
+        border-radius: 10px;
         color: #fff;
     }
-    .mask-button span{
+    .mask-button span {
         transition: transform 300ms ease-in-out;
-
     }
-    .mask-button[data-open="true"]  span{
+    .mask-button[data-open="true"] span {
         transform: rotate(720deg);
     }
-    
-    
 }
