@@ -116,6 +116,9 @@ body {
         --fs-hero: 3rem;
     }
 
+    .only-mobile{
+        display: inline;
+    }
     .mask-button-container .mask-button {
         position: fixed;
         top: 5vh;
