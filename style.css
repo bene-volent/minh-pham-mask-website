@@ -142,11 +142,17 @@ body {
         aspect-ratio: 1;
         border-radius: 10px;
         color: #fff;
+        box-shadow: 0 0 10px hsl(0 0% 100% / 0.3)
+    }
+    .mask-button[data-open="true"]{
+        box-shadow: 0 0 10px hsl(0 0% 0% / 0.4)
+
     }
     .mask-button span {
         transition: transform 300ms ease-in-out;
     }
     .mask-button[data-open="true"] span {
         transform: rotate(720deg);
+
     }
 }
