@@ -4,7 +4,7 @@
 }
 
 :root {
-    --fs-hero: 6rem;
+    --fs-hero: clamp(2rem,10vw,6rem);
 }
 .only-mobile {
     display: none;
@@ -116,7 +116,7 @@ body {
     gap: 3rem;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     :root {
         --fs-hero: 3rem;
     }
