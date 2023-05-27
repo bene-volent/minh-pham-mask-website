@@ -10,6 +10,11 @@
     display: none;
 }
 
+.prevent-select {
+    -webkit-user-select: none; /* Safari */
+    user-select: none; /* Standard syntax */
+  }
+
 .section-wrapper {
     position: relative;
     /* z-index: -1 */
